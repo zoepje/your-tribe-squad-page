@@ -86,6 +86,8 @@ article section a.button {
     right: 2em;
     transition: 400ms;
 }
+
+/* wanneer je over de button hoverd wordt hij wit met zwarte text*/
 article section a.button:hover {
     background: white;
     color: black;
@@ -148,7 +150,7 @@ nav ul:hover ul {
     right: 0px;
   }
 
-/*Screen veranderen*/
+/*Screen veranderd per grootte*/
 @media only screen and (max-width: 600px) {
     header img {
         height: 10vh;
@@ -196,6 +198,8 @@ nav ul:hover ul {
         position: relative;
         transition: 0.75s;
     }
+
+    /*Dark mode*/
     @media (prefers-color-scheme: dark) {
         body{
             background-color: #161327;
@@ -217,7 +221,7 @@ nav ul:hover ul {
         object-fit: cover;
     }
 
-    /* EVEN ITEM DRAAIT FOTO EN CONTENT OM */
+    /* ODD ITEM DRAAIT FOTO EN CONTENT OM */
     article:nth-child(odd) {
         rotate: 180deg;
     }
@@ -232,9 +236,9 @@ nav ul:hover ul {
         left: 2em;
         max-width: 2rem;
     }
-    
+    /* EIND ODD ITEM DRAAIT FOTO EN CONTENT OM */
   }
-  /* EIND EVEN ITEM DRAAIT FOTO EN CONTENT OM */
+
 
 @media only screen and (min-width: 768px) {
     article section.image {
