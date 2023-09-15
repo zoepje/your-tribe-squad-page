@@ -1,0 +1,244 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background: ghostwhite;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    transition: 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header img {
+    width: 40vw;
+    height: 60vh;
+    background-color: #936FBA;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+a.button {
+    background: black;
+    color: white;
+    position: fixed;
+    bottom: 2em;
+    padding: 1em 2em;
+    right: 2em;
+    transition: 400ms;
+}
+
+a.button:hover {
+    background: white;
+    color: black;
+    position: fixed;
+    transition: 0.75s;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    background: lightgray;
+    height: 50vh;
+}
+
+article section {
+    width: 100%;
+    padding: 2em;
+    position: relative;
+}
+
+article section.image {
+    width: 40%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article section a.button {
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    padding: 1em 2em;
+    right: 2em;
+    transition: 400ms;
+}
+article section a.button:hover {
+    background: white;
+    color: black;
+    position: absolute;
+    transition: 0.75s;
+}
+
+/*nav------------------------------------*/
+nav ul{
+    list-style: none;
+}
+
+#menu{
+    width: 20vw ;
+    z-index: 2;
+    background: #706BFF;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+#menu h2{
+    text-align:center;
+}
+
+#menu a{
+    display: block;
+    margin-left: 1em;
+    margin-top: 1em;
+    color:beige;
+    text-decoration: none;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+    background: #706BFF;
+    width:20vw;
+}
+
+nav ul:hover ul {
+	display: block;
+}
+/*nav--------------------------------------------------*/
+
+#container{
+    width: 70vw;
+    margin: 0 0 0 20vw;
+    background: #936FBA;
+    z-index: 3;
+}
+
+.dark-mode {
+    background-color: #161327;
+    transition: 0.5s;
+  }
+  #toggle{
+    right: 0px;
+  }
+
+/*Screen veranderen*/
+@media only screen and (max-width: 600px) {
+    header img {
+        height: 10vh;
+        object-fit: contain;
+        background-color: #936FBA;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        background: lightgray;
+        height: auto;
+        align-items: center;
+    }
+
+    article section {
+        width: 80%;
+        padding: 2em;
+        position: relative;
+        text-align: center;
+    }
+
+    article section.image img {
+        width: 100%;
+        height: 25vh;
+        object-fit: cover;
+    }
+
+    article section.image a {
+        pointer-events: none;
+    }
+
+    article section a.button {
+        background: black;
+        color: white;
+        position: relative;
+        top: 1em;
+        padding: 0.5em 2em;
+        text-align: center;
+    }
+
+    article section a.button:hover {
+        background: white;
+        color: black;
+        position: relative;
+        transition: 0.75s;
+    }
+    @media (prefers-color-scheme: dark) {
+        body{
+            background-color: #161327;
+        }
+    }
+  
+}
+
+@media only screen and (min-width: 600px ) {
+  
+    article section.image {
+        width: 60%;
+        padding: 0;
+    }
+
+    article section.image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* EVEN ITEM DRAAIT FOTO EN CONTENT OM */
+    article:nth-child(odd) {
+        rotate: 180deg;
+    }
+
+    article:nth-child(odd) section {
+        rotate: 180deg;
+        background-color: rgb(174, 174, 174);
+        text-align: right;
+    }
+
+    article:nth-child(odd) section a.button {
+        left: 2em;
+        max-width: 2rem;
+    }
+    
+  }
+  /* EIND EVEN ITEM DRAAIT FOTO EN CONTENT OM */
+
+@media only screen and (min-width: 768px) {
+    article section.image {
+        width: 40%;
+        padding: 0;
+    }
+
+  } 
