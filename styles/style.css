@@ -49,6 +49,7 @@ a.button {
     transition: 400ms;
 }
 
+/* wanneer je over de button hoverd wordt hij wit met zwarte text*/
 a.button:hover {
     background: white;
     color: black;
