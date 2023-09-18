@@ -135,7 +135,7 @@ nav ul:hover ul {
 }
 /*nav--------------------------------------------------*/
 
-#container{
+.container{
     width: 70vw;
     margin: 0 0 0 20vw;
     background: #936FBA;
@@ -205,7 +205,11 @@ nav ul:hover ul {
             background-color: #161327;
         }
     }
-  
+
+    /*Darkmode button verwijderen*/
+   .speciaal{
+    display: none;
+   }
 }
 
 @media only screen and (min-width: 600px ) {
