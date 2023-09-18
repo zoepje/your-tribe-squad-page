@@ -188,6 +188,7 @@ nav ul:hover ul {
         color: white;
         position: relative;
         top: 1em;
+        right: 0;
         padding: 0.5em 2em;
         text-align: center;
     }
@@ -219,6 +220,11 @@ nav ul:hover ul {
         margin:0;
     }
 
+    /*Darkmode button verwijderen*/
+    .speciaal{
+        display: none;
+    }
+
     /*Dark mode*/
     @media (prefers-color-scheme: dark) {
         header img{
@@ -246,11 +252,6 @@ nav ul:hover ul {
         }
 
     }
-
-    /*Darkmode button verwijderen*/
-   .speciaal{
-    display: none;
-   }
 }
 
 @media only screen and (min-width: 600px ) {
