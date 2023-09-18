@@ -60,7 +60,7 @@ a.button:hover {
 article {
     display: flex;
     flex-direction: row;
-    background: lightgray;
+    background: linear-gradient(20deg, lightpink ,lightgray);
     height: 50vh;
 }
 
@@ -275,7 +275,7 @@ nav ul:hover ul {
 
     article:nth-child(odd) section {
         rotate: 180deg;
-        background-color: rgb(174, 174, 174);
+        background: linear-gradient(20deg, rgb(182, 255, 198) ,gray);
         text-align: right;
     }
 
