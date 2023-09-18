@@ -103,11 +103,10 @@ nav ul{
 #menu{
     width: 20vw ;
     z-index: 2;
-    background: #706BFF;
+    background: #530079;
     text-align: left;
     position: fixed;
     top: 0;
-    left: 0;
     transition: 1s;
 }
 
@@ -124,14 +123,14 @@ nav ul{
 }
 
 nav ul ul {
-	display: none;
+	display: none; /*zorgt ervoor dat de lijst is ingeklapt*/
 	position: absolute;
-    background: #706BFF;
+    background: #530079;
     width:20vw;
 }
 
 nav ul:hover ul {
-	display: block;
+	display: block; /*zorgt ervoor dat de lijst is uitgeklapt*/
 }
 /*nav--------------------------------------------------*/
 
@@ -159,6 +158,7 @@ nav ul:hover ul {
     }
 
     article {
+        padding: 1em;
         display: flex;
         flex-direction: column;
         background: lightgray;
@@ -203,11 +203,48 @@ nav ul:hover ul {
         background-color: rgb(174, 174, 174);
     }
 
+    #menu{
+        width: 20vw ;
+        z-index: 2;
+        background: #530079;
+        text-align: left;
+        position: fixed;
+        top: 0;
+        right: 0;
+        transition: 1s;
+    }
+
+    .container{
+        width: 100%;
+        margin:0;
+    }
+
     /*Dark mode*/
     @media (prefers-color-scheme: dark) {
-        body{
-            background-color: #161327;
+        header img{
+            background-color: #530079;
         }
+
+        article{
+            background-color: rgb(118, 118, 118);
+        }
+
+        article:nth-child(odd){
+            background-color: rgb(71, 71, 71);
+        }
+
+        .container{
+            background-color: #530079;
+        }
+
+        #menu{
+            background: #8800c88a;
+        }
+
+        nav ul ul{
+            background: #8800c88a;
+        }
+
     }
 
     /*Darkmode button verwijderen*/
@@ -245,6 +282,10 @@ nav ul:hover ul {
         max-width: 2rem;
     }
     /* EIND ODD ITEM DRAAIT FOTO EN CONTENT OM */
+
+    #menu{
+        left: 0;
+    }
   }
 
 
