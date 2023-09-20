@@ -142,19 +142,6 @@ nav ul:hover ul {
     z-index: 3;
 }
 
-.dark-mode {
-    background-color: #161327;
-    transition: 0.5s;
-}
-#toggle{
-    right: 0px;
-  }
-
-/*Darkmode button verwijderen*/
-.speciaal{
-    display: none;
-}
-
 /*Screen veranderd per grootte*/
 @media only screen and (max-width: 600px) {
     header img {
@@ -218,11 +205,6 @@ nav ul:hover ul {
     .container{
         width: 100%;
         margin:0;
-    }
-    
-    /*Darkmode button verwijderen*/
-    .speciaal{
-        display: none;
     }
 }
 
