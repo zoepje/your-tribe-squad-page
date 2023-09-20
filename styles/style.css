@@ -100,7 +100,7 @@ nav ul{
     list-style: none;
 }
 
-#menu{
+.menu{
     width: 20vw ;
     z-index: 2;
     background: #007379;
@@ -110,12 +110,12 @@ nav ul{
     transition: 1s;
 }
 
-#menu h2{
+.menu h2{
     text-align:center;
     color:beige;
 }
 
-#menu a{
+.menu a{
     display: block;
     margin-left: 1em;
     margin-top: 1em;
@@ -204,7 +204,7 @@ nav ul:hover ul {
         background-color: rgb(174, 174, 174);
     }
 
-    #menu{
+    .menu{
         text-align: right;
         position: fixed;
         right: 0;
@@ -238,7 +238,7 @@ nav ul:hover ul {
             background-color: #530079;
         }
 
-        #menu{
+        .menu{
             background: #8800c88a;
         }
 
@@ -284,7 +284,7 @@ nav ul:hover ul {
     }
     /* EIND ODD ITEM DRAAIT FOTO EN CONTENT OM */
 
-    #menu{
+    .menu{
         left: 0;
     }
   }
