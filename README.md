@@ -1,5 +1,5 @@
 # Squad page
-Sijno - Zoë - Larissa | AD FDND | 2023
+Seijno - Zoë - Larissa | AD FDND | 2023
 
 ### OPDRACHT:
 Uitleg van de opdracht komt hier
