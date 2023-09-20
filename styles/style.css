@@ -206,11 +206,6 @@ nav ul:hover ul {
         width: 100%;
         margin:0;
     }
-    
-    /*Darkmode button verwijderen*/
-    .speciaal{
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 600px ) {
