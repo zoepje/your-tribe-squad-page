@@ -103,7 +103,7 @@ nav ul{
 #menu{
     width: 20vw ;
     z-index: 2;
-    background: #530079;
+    background: #007379;
     text-align: left;
     position: fixed;
     top: 0;
@@ -126,7 +126,7 @@ nav ul{
 nav ul ul {
 	display: none; /*zorgt ervoor dat de lijst is ingeklapt*/
 	position: absolute;
-    background: #530079;
+    background: #007379;
     width:20vw;
 }
 
@@ -155,7 +155,6 @@ nav ul:hover ul {
     header img {
         height: 10vh;
         object-fit: contain;
-        background-color: #936FBA;
     }
 
     article {
@@ -206,14 +205,9 @@ nav ul:hover ul {
     }
 
     #menu{
-        width: 20vw ;
-        z-index: 2;
-        background: #530079;
-        text-align: left;
+        text-align: right;
         position: fixed;
-        top: 0;
         right: 0;
-        transition: 1s;
     }
 
     .container{
