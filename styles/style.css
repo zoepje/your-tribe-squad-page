@@ -100,22 +100,22 @@ nav ul{
     list-style: none;
 }
 
-#menu{
+.menu{
     width: 20vw ;
     z-index: 2;
-    background: #530079;
+    background: #007379;
     text-align: left;
     position: fixed;
     top: 0;
     transition: 1s;
 }
 
-#menu h2{
+.menu h2{
     text-align:center;
     color:beige;
 }
 
-#menu a{
+.menu a{
     display: block;
     margin-left: 1em;
     margin-top: 1em;
@@ -126,7 +126,7 @@ nav ul{
 nav ul ul {
 	display: none; /*zorgt ervoor dat de lijst is ingeklapt*/
 	position: absolute;
-    background: #530079;
+    background: #007379;
     width:20vw;
 }
 
@@ -149,25 +149,25 @@ nav ul:hover ul {
 #toggle{
     right: 0px;
   }
-  
-  /*Screen veranderd per grootte*/
-  @media only screen and (max-width: 600px) {
-      header img {
-          height: 10vh;
-          object-fit: contain;
-          background-color: #936FBA;
-        }
-        
-        article {
-            padding: 1em;
-            display: flex;
-            flex-direction: column;
-            background: lightgray;
-            height: auto;
-            align-items: center;
-        }
-        
-        article section {
+
+/*Screen veranderd per grootte*/
+@media only screen and (max-width: 600px) {
+    header img {
+        height: 10vh;
+        object-fit: contain;
+    }
+
+    article {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        background: lightgray;
+        height: auto;
+        align-items: center;
+    }
+
+    article section {
+
         width: 80%;
         padding: 2em;
         position: relative;
@@ -205,15 +205,10 @@ nav ul:hover ul {
         background-color: rgb(174, 174, 174);
     }
 
-    #menu{
-        width: 20vw ;
-        z-index: 2;
-        background: #530079;
-        text-align: left;
+    .menu{
+        text-align: right;
         position: fixed;
-        top: 0;
         right: 0;
-        transition: 1s;
     }
 
     .container{
@@ -225,7 +220,6 @@ nav ul:hover ul {
     .speciaal{
         display: none;
     }
-    
 }
 
 @media only screen and (min-width: 600px ) {
@@ -263,7 +257,7 @@ nav ul:hover ul {
     }
     /* EIND ODD ITEM DRAAIT FOTO EN CONTENT OM */
 
-    #menu{
+    .menu{
         left: 0;
     }
   }
