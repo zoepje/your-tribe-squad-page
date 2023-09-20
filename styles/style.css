@@ -60,7 +60,7 @@ a.button:hover {
 article {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(20deg, lightpink ,lightgray);
+    background: linear-gradient(20deg, lightpink , #dbf4ac);
     height: 50vh;
 }
 
@@ -153,7 +153,6 @@ nav ul:hover ul {
         padding: 1em;
         display: flex;
         flex-direction: column;
-        background: lightgray;
         height: auto;
         align-items: center;
     }
@@ -191,11 +190,9 @@ nav ul:hover ul {
         position: relative;
         transition: 0.75s;
     }
-    
-    article:nth-child(odd){
-        background-color: rgb(174, 174, 174);
+    article:nth-child(odd) {
+        background: linear-gradient(20deg, rgb(182, 255, 198) ,rgb(253, 92, 92));
     }
-
     .menu{
         text-align: right;
         position: fixed;
@@ -229,7 +226,7 @@ nav ul:hover ul {
     /* ODD ITEM DRAAIT FOTO EN CONTENT OM */
     article:nth-child(odd) {
         rotate: 180deg;
-        background: linear-gradient(20deg, rgb(182, 255, 198) ,rgb(255, 0, 0));
+        background: linear-gradient(200deg, rgb(182, 255, 198) ,rgb(253, 92, 92));
     }
     
     article:nth-child(odd) section {
