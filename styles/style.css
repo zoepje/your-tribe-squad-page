@@ -131,7 +131,7 @@ nav ul ul {
 }
 
 nav ul:hover ul {
-	display: block; /*zorgt ervoor dat de lijst is uitgeklapt*/
+    display: block; /*zorgt ervoor dat de lijst is uitgeklapt*/
 }
 /*nav--------------------------------------------------*/
 
@@ -145,45 +145,45 @@ nav ul:hover ul {
 .dark-mode {
     background-color: #161327;
     transition: 0.5s;
-  }
-  #toggle{
+}
+#toggle{
     right: 0px;
   }
-
-/*Screen veranderd per grootte*/
-@media only screen and (max-width: 600px) {
-    header img {
-        height: 10vh;
-        object-fit: contain;
-        background-color: #936FBA;
-    }
-
-    article {
-        padding: 1em;
-        display: flex;
-        flex-direction: column;
-        background: lightgray;
-        height: auto;
-        align-items: center;
-    }
-
-    article section {
+  
+  /*Screen veranderd per grootte*/
+  @media only screen and (max-width: 600px) {
+      header img {
+          height: 10vh;
+          object-fit: contain;
+          background-color: #936FBA;
+        }
+        
+        article {
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            background: lightgray;
+            height: auto;
+            align-items: center;
+        }
+        
+        article section {
         width: 80%;
         padding: 2em;
         position: relative;
         text-align: center;
     }
-
+    
     article section.image img {
         width: 100%;
         height: 25vh;
         object-fit: cover;
     }
-
+    
     article section.image a {
         pointer-events: none;
     }
-
+    
     article section a.button {
         background: black;
         color: white;
@@ -193,14 +193,14 @@ nav ul:hover ul {
         padding: 0.5em 2em;
         text-align: center;
     }
-
+    
     article section a.button:hover {
         background: white;
         color: black;
         position: relative;
         transition: 0.75s;
     }
-
+    
     article:nth-child(odd){
         background-color: rgb(174, 174, 174);
     }
@@ -220,43 +220,16 @@ nav ul:hover ul {
         width: 100%;
         margin:0;
     }
-
+    
     /*Darkmode button verwijderen*/
     .speciaal{
         display: none;
     }
-
-    /*Dark mode*/
-    @media (prefers-color-scheme: dark) {
-        header img{
-            background-color: #530079;
-        }
-
-        article{
-            background-color: rgb(118, 118, 118);
-        }
-
-        article:nth-child(odd){
-            background-color: rgb(71, 71, 71);
-        }
-
-        .container{
-            background-color: #530079;
-        }
-
-        #menu{
-            background: #8800c88a;
-        }
-
-        nav ul ul{
-            background: #8800c88a;
-        }
-
-    }
+    
 }
 
 @media only screen and (min-width: 600px ) {
-  
+    
     article {
         border-radius: 15px;
         overflow: hidden;
@@ -266,24 +239,24 @@ nav ul:hover ul {
         width: 60%;
         padding: 0;
     }
-
+    
     article section.image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
+    
     /* ODD ITEM DRAAIT FOTO EN CONTENT OM */
     article:nth-child(odd) {
         rotate: 180deg;
     }
-
+    
     article:nth-child(odd) section {
         rotate: 180deg;
         background: linear-gradient(20deg, rgb(182, 255, 198) ,rgb(255, 0, 0));
         text-align: right;
     }
-
+    
     article:nth-child(odd) section a.button {
         left: 2em;
         max-width: 2rem;
@@ -301,5 +274,36 @@ nav ul:hover ul {
         width: 40%;
         padding: 0;
     }
+    
+} 
+/*Dark mode*/
+@media (prefers-color-scheme: dark) {
+    body{
+      background: rgb(70, 0, 70);
+    }
+    header img{
+        background-color: #7f00b9;
+    }
 
-  } 
+    article{
+        background: linear-gradient(20deg, rgb(27, 1, 88) ,rgb(117, 0, 146));
+    }
+
+    article:nth-child(odd){
+        background: linear-gradient(20deg, rgb(26, 2, 134) ,rgb(16, 0, 87));
+    }
+
+    .container{
+        background-color: #7f00b9;
+        color: ghostwhite;
+    }
+
+    #menu{
+        background: #8800c88a;
+    }
+
+    nav ul ul{
+        background: #8800c88a;
+    }
+
+}
