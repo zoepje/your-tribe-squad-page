@@ -289,7 +289,7 @@ nav ul:hover ul {
         background: linear-gradient(20deg, rgb(27, 1, 88) ,rgb(117, 0, 146));
     }
 
-    article:nth-child(odd){
+    article:nth-child(odd) section{
         background: linear-gradient(20deg, rgb(26, 2, 134) ,rgb(16, 0, 87));
     }
 
