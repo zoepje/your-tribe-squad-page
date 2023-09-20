@@ -126,7 +126,7 @@ nav ul{
 nav ul ul {
 	display: none; /*zorgt ervoor dat de lijst is ingeklapt*/
 	position: absolute;
-    background: #007379;
+    background: #007379b2;
     width:20vw;
 }
 
@@ -150,6 +150,11 @@ nav ul:hover ul {
     right: 0px;
   }
 
+/*Darkmode button verwijderen*/
+.speciaal{
+    display: none;
+}
+
 /*Screen veranderd per grootte*/
 @media only screen and (max-width: 600px) {
     header img {
@@ -167,7 +172,6 @@ nav ul:hover ul {
     }
 
     article section {
-
         width: 80%;
         padding: 2em;
         position: relative;
