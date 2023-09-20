@@ -126,7 +126,7 @@ nav ul{
 nav ul ul {
 	display: none; /*zorgt ervoor dat de lijst is ingeklapt*/
 	position: absolute;
-    background: #007379;
+    background: #007379b2;
     width:20vw;
 }
 
@@ -149,6 +149,38 @@ nav ul:hover ul {
   #toggle{
     right: 0px;
   }
+
+/*Darkmode button verwijderen*/
+.speciaal{
+    display: none;
+}
+
+/*Dark mode*/
+@media (prefers-color-scheme: dark) {
+    header img{
+        background-color: #530079;
+    }
+
+    article{
+        background-color: rgb(118, 118, 118);
+    }
+
+    article:nth-child(odd){
+        background-color: rgb(71, 71, 71);
+    }
+
+    .container{
+        background-color: #530079;
+    }
+
+    .menu{
+        background: #8800c88a;
+    }
+
+    nav ul ul{
+        background: #8800c88a;
+    }
+}
 
 /*Screen veranderd per grootte*/
 @media only screen and (max-width: 600px) {
@@ -213,39 +245,6 @@ nav ul:hover ul {
     .container{
         width: 100%;
         margin:0;
-    }
-
-    /*Darkmode button verwijderen*/
-    .speciaal{
-        display: none;
-    }
-
-    /*Dark mode*/
-    @media (prefers-color-scheme: dark) {
-        header img{
-            background-color: #530079;
-        }
-
-        article{
-            background-color: rgb(118, 118, 118);
-        }
-
-        article:nth-child(odd){
-            background-color: rgb(71, 71, 71);
-        }
-
-        .container{
-            background-color: #530079;
-        }
-
-        .menu{
-            background: #8800c88a;
-        }
-
-        nav ul ul{
-            background: #8800c88a;
-        }
-
     }
 }
 
