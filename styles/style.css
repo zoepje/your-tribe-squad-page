@@ -257,6 +257,11 @@ nav ul:hover ul {
 
 @media only screen and (min-width: 600px ) {
   
+    article {
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 1em 1em;
+    }
     article section.image {
         width: 60%;
         padding: 0;
@@ -275,7 +280,7 @@ nav ul:hover ul {
 
     article:nth-child(odd) section {
         rotate: 180deg;
-        background: linear-gradient(20deg, rgb(182, 255, 198) ,gray);
+        background: linear-gradient(20deg, rgb(182, 255, 198) ,rgb(255, 0, 0));
         text-align: right;
     }
 
