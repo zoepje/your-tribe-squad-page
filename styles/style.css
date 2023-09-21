@@ -106,7 +106,7 @@ nav ul{
 }
 
 .menu{
-    width: 20vw ;
+    width: 20vw;
     z-index: 2;
     background: #007379;
     text-align: left;
@@ -198,10 +198,23 @@ nav ul:hover ul {
     article:nth-child(odd) {
         background: linear-gradient(20deg, rgb(182, 255, 198) ,rgb(253, 92, 92));
     }
+    
+    nav{
+        width: 120px;
+    }
     .menu{
-        text-align: right;
+        text-align: left;
         position: fixed;
         right: 0;
+        width: 120px;
+        background: #00737900;
+    }
+
+    .menu h2 {
+        color:#400000;
+    }
+    nav ul ul{
+        width: 120px;
     }
 
     .container{
