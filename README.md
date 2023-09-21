@@ -3,12 +3,12 @@
 ### 📄 Opdracht:
 We hebben de opdracht gekregen om met ons groepje een site te creëren waarop de visitekaartjes van elke squad wordt gepresenteerd. We hebben de website gemaakt in Visual Studio Code en werkte samen via Github.
 
-### 📄 Onze werkwijze:
+### 💻👨‍💻 Onze werkwijze:
 In onze wiki zie je goed hoe wij te werk zijn gegaan. Zie Wiki: 
 
 **Inhoudsopgave Wiki**
 
-### 📄 Wat hebben we gebruikt
+### 🖇️ Wat hebben we gebruikt
 We hebben HTML en CSS gebruikt bij het creëren van onze website, het coderen hebben wij gedaan in Visual Studio Code
 
 ### 💻 Website bezoeken en gebruiken
