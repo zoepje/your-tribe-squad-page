@@ -2,13 +2,13 @@
 Seijno - Zoë - Larissa | AD FDND | 2023
 
 ### OPDRACHT:
-Uitleg van de opdracht komt hier
+We hebben de opdracht gekregen om met ons groepje een site te creëren waarop de visitekaartjes van elke squad wordt gepresenteerd. 
 
 ### WERKWIJZE:
 Hoe zijn we te werk gegaan verwijze naar de wiki? 
 
 ### WAT HEBBEN WE GEBRUIKT
-Laten zien dat we de talen HMTL CSS en Javascript hebben gebruikt
+We hebben HTML & CSS gebruikt om onze website te maken.
 
 ### WEBSITE:
 Hoe kan de gebruiker bij onze website komen?
